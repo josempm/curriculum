@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #E3CEF6;
+}
+
+.principal{
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+
+	
+}
+body{
+	align-content: center;
+	width: 1100px;
+	margin: auto;
+}
+
+.menu{
+	text-align: center;
+	width: 1000px
+	padding:20px;
+	margin: 10px ;
+}
+.menu a{
+	padding: 10px;
+	margin: 20px;
+	border:1px  solid #9C8BA4;
+	max-width: 100px;
+	width: 100px;
+	border-radius: 6px;
+	background-color: gray;
+	text-align: center;
+	box-shadow: 2px 2px 2px rgba(172, 0, 0, 0.33);
+}
+a{
+	background: none;
+	color: black;
+}
+a:link{
+	color: red;
+	text-decoration: none;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: black;
+	background-color: #E1A8F9;
+	border:1px dashed ;
+	text-decoration/: underline;
+}
+a:active{
+	color: red;
+}
+.nombre{
+	text-align: center;
+	align-content: center;
+	padding: 10px;
+}
+.datos{
+	padding: 10px;
+	text-align: center;
+	list-style-position: center;
+	
+}
+.datos ul{
+	list-style: none;
+}
+.contacto{
+	padding: 10px;
+	text-align: center;
+}
+.herramientas{
+	padding: 10px;
+	text-align: center;
+}
+.herramientas ol{
+	list-style: none;
+}
+ol{
+	list-style: none;
+}
+ul{
+	list-style: none;
+}
+.cuerpo{
+	margin: 30px 0 0 0;
+	/*border: 2px solid black;*/
+}
+h3,h2,h1{
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width: 600px;
+	text-align: center;
+	margin: 30px auto 30px auto;
+	background: #D0BCDA;
+	box-shadow: 1px 1px 1px black;
+}
