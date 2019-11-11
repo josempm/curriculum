@@ -2,47 +2,47 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	background: #E3CEF6;
-}
+}/*
+body{
+	background: red;
+}*/
 
 .principal{
-	width: 75%;
+	width: 1000px;
 	margin: 0 auto;
-	padding: 10px;
-	text-align: center;
-	border: 2px solid black;
-
+	display: flex;
+	flex-direction: column;
 	
-}
-body{
-	align-content: center;
-	width: 1100px;
-	margin: auto;
 }
 
 .menu{
-	text-align: center;
-	width: 1000px
-	padding:20px;
-	margin: 10px ;
+	
+	width: 1000px;
+	
+	position: fixed;
+	
 }
-.menu a{
-	padding: 10px;
-	margin: 20px;
-	border:1px  solid #9C8BA4;
-	max-width: 100px;
-	width: 100px;
-	border-radius: 6px;
-	background-color: gray;
-	text-align: center;
-	box-shadow: 2px 2px 2px rgba(172, 0, 0, 0.33);
+.menu1 {
+	display: flex;
+
+	background-color: #E3CEF6;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
 }
+
+
+ul,ol {
+	list-style: none;
+}
+
+
+
 a{
-	background: none;
 	color: black;
 }
 a:link{
-	color: red;
+
 	text-decoration: none;
 }
 a:visited{
@@ -50,54 +50,75 @@ a:visited{
 }
 a:hover{
 	color: black;
-	background-color: #E1A8F9;
-	border:1px dashed ;
-	text-decoration/: underline;
-}
+	text-decoration: underline;
+}/*
 a:active{
 	color: red;
-}
-.nombre{
-	text-align: center;
-	align-content: center;
-	padding: 10px;
-}
-.datos{
-	padding: 10px;
-	text-align: center;
-	list-style-position: center;
-	
-}
-.datos ul{
-	list-style: none;
-}
-.contacto{
-	padding: 10px;
-	text-align: center;
-}
-.herramientas{
-	padding: 10px;
-	text-align: center;
-}
-.herramientas ol{
-	list-style: none;
-}
-ol{
-	list-style: none;
-}
-ul{
-	list-style: none;
-}
+}*/
+
 .cuerpo{
-	margin: 30px 0 0 0;
-	/*border: 2px solid black;*/
+	margin:  50px auto;
+	width: 900px;
+	display: flex;
+	flex-direction: column;
 }
-h3,h2,h1{
-	border: 1px solid black;
-	border-radius: 10px;
-	max-width: 600px;
-	text-align: center;
-	margin: 30px auto 30px auto;
-	background: #D0BCDA;
-	box-shadow: 1px 1px 1px black;
+
+.nombre{
+	display: flex;
+	justify-content: space-around;
 }
+h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content:  center;
+}
+
+.info{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.contenido{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+}
+.medio{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 350px;
+}
+.peli{
+	width: 750px;
+	height: 350px;
+}
+@media only screen and (max-width:900px ) {
+	
+	.cuerpo{
+		width: 100%;
+	}
+	.principal{
+		width: 350px;
+	}
+	.menu{
+		width: 350px;
+	}
+	
+	.peli{
+		width: 350px;
+		height: 150px;
+	}
+}
+
+
+
+
